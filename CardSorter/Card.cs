@@ -2,9 +2,9 @@
 {
     public class Card
     {
-        public Suit Suit { get; private set; }
-        public Value Value { get; private set; }
-        public string Name { get; private set; }
+        public Suit Suit { get; }
+        public Value Value { get; }
+        public string Name { get; }
 
         public Card(Suit suit, Value value)
         {
